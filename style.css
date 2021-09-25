@@ -148,6 +148,33 @@ button:hover, a:hover{
 
 .hero{
   position: absolute;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.map-container{
+  width: 100vw;
+}
+
+.map-container iframe{
+  width: 100vw;
+}
+
+.background{
+  position: absolute;
+  
+  filter: blur(4px);
+  /* -webkit-filter: blur(8px); */
+  background-size: cover;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/flagged/photo-1556742524-750f2ab99913?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80);
 }
 
 .pf-header-bg{  
